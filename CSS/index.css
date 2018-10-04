@@ -19,3 +19,9 @@ img {
 h2 {
     color: chocolate;
 }
+.page-body {
+    background-color: #E08241;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 2%;
+}
