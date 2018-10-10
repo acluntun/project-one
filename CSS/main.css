@@ -1,31 +1,123 @@
 body {
     background-color: antiquewhite;
-    background-image: url("../Assets/bowie-background.png")
+    background-image: url("../Assets/bowie-background.png");
+    background-attachment: fixed;
+}
+
+.dark {
+    background-color: black;
+    background-image: url("../Assets/David-Bowie-High-Definition.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-body {
+    background-color: #E08241;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2%;
 }
 
 h1 {
     text-align: center;
-    color: antiquewhite;
-    font-size: 55px;
-    font-family: fantasy;
-    margin-bottom: 0%;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Rock Salt', cursive;
+    margin: 0;
 }
 
 img {
     display: block;
     margin: 0 auto;
     width: 50%;
-}
-h2 {
-    color: antiquewhite;
-    font-family: 'El Messiri', sans-serif;
-}
-.page-body {
-    background-color: #E08241;
-    margin: 0 10%;
-    padding: 2%;
+    padding-bottom: 5%;
 }
 
-#sec {
-    font-family: 'Zilla Slab', serif;
+
+
+#sec, a, p, li, ul {
+    font-family: 'Unna', serif;
+    color: black;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+p, ul {
+    padding: 0 2%;
+    margin: 1%;
+}
+
+h2 {
+    color: antiquewhite;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-h2 {
+    color: antiquewhite;
+    font-family: 'Notable', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.right-col {
+   /* background-color: #E08241;*/
+    margin: 5% 5% auto auto;
+    padding: 2%;
+    float: right;
+    width: 40%;
+}
+
+.left-col {
+    float: left;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    margin: 10% 0 0 0;
+    padding: 0%;
+    /*width: 10%;*/
+}
+
+.dark-h1 {
+    /*text-align: center;*/
+    /*float: bottom;*/
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: 'Monoton', cursive;
+    height: 25%;
+    
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    margin: 0;
+    padding: 0;
+}
+
+.dark-body { 
+    color: darkgrey;
+    font-family: 'Podkova', serif;
+    font-size: 20px;
+    margin-top: 1;
+    padding: 0;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 10;
+    left: 10;
+    text-align: center;
+}
+
+#theme {
+    width: 190px;
+    height: 35px;
+    background-color: #E08241;
+    padding-top: 5;
 }
