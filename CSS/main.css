@@ -68,7 +68,6 @@ h2 {
 
 
 .right-col {
-   /* background-color: #E08241;*/
     margin: 5% 5% auto auto;
     padding: 2%;
     float: right;
@@ -82,12 +81,9 @@ h2 {
     top: 5px;
     margin: 10% 0 0 0;
     padding: 0%;
-    /*width: 10%;*/
 }
 
 .dark-h1 {
-    /*text-align: center;*/
-    /*float: bottom;*/
     color: antiquewhite;
     font-size: 60px;
     font-family: 'Monoton', cursive;
